@@ -9,6 +9,7 @@ import {
   ShieldCheck,
   BarChart3,
   ArrowLeftRight,
+  Ticket,
   Settings,
   LogOut,
 } from "lucide-react";
@@ -21,6 +22,7 @@ const navItems = [
   { href: "/policies", label: "Policyer", icon: ShieldCheck },
   { href: "/reports", label: "Rapporter", icon: BarChart3 },
   { href: "/exchange", label: "Utbytesanmälan", icon: ArrowLeftRight },
+  { href: "/arenden", label: "Öppna ärenden", icon: Ticket },
 ];
 
 export default function Sidebar() {
